@@ -114,7 +114,7 @@ namespace pr2
         {
             System.Threading.Thread.CurrentThread.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo("ar");
             this.RightToLeft = RightToLeft.Yes;
-            this.RightToLeftLayout = true;
+           // this.RightToLeftLayout = true;
             this.Controls.Clear();
             InitializeComponent();
             pictureBox2.Image = Properties.Resources.WhatsApp_Image_2022_04_07_at_23_17_03;

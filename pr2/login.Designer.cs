@@ -222,7 +222,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackgroundImage = global::pr2.Properties.Resources.Screenshot__8_1;
+            this.panel2.BackgroundImage = global::pr2.Properties.Resources.pexels_oleksandr_pidvalnyi_2781814;
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
