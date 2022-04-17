@@ -15,20 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="BouncyCastle.Crypto">
-      <HintPath>..\..\..\..\Downloads\mysql-connector-net-8.0.28-noinstall\net6.0\BouncyCastle.Crypto.dll</HintPath>
-    </Reference>
-    <Reference Include="K4os.Hash.xxHash">
-      <HintPath>..\..\..\..\Downloads\mysql-connector-net-8.0.28-noinstall\net6.0\K4os.Hash.xxHash.dll</HintPath>
-    </Reference>
     <Reference Include="MySql.Data">
       <HintPath>..\..\..\..\Downloads\mysql-connector-net-8.0.28-noinstall\net6.0\MySql.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="Ubiety.Dns.Core">
-      <HintPath>..\..\..\..\Downloads\mysql-connector-net-8.0.28-noinstall\net6.0\Ubiety.Dns.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="ZstdNet">
-      <HintPath>..\..\..\..\Downloads\mysql-connector-net-8.0.28-noinstall\net6.0\ZstdNet.dll</HintPath>
     </Reference>
   </ItemGroup>
 
