@@ -28,24 +28,177 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.materialMultiLineTextBox21 = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
-            this.materialMultiLineTextBox22 = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
-            this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
-            this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
+            this.panel1 = new System.Windows.Forms.Panel();
             this.materialDivider1 = new MaterialSkin.Controls.MaterialDivider();
+            this.pic_fr = new System.Windows.Forms.PictureBox();
+            this.pic_en = new System.Windows.Forms.PictureBox();
+            this.pic_ar = new System.Windows.Forms.PictureBox();
+            this.btn_visible = new System.Windows.Forms.Button();
+            this.btn_invisible = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
+            this.materialMultiLineTextBox22 = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
+            this.materialMultiLineTextBox21 = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_fr)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_en)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_ar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.materialDivider1);
+            this.panel1.Controls.Add(this.pic_fr);
+            this.panel1.Controls.Add(this.pic_en);
+            this.panel1.Controls.Add(this.pic_ar);
+            this.panel1.Controls.Add(this.btn_visible);
+            this.panel1.Controls.Add(this.btn_invisible);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.materialLabel2);
+            this.panel1.Controls.Add(this.materialLabel1);
+            this.panel1.Controls.Add(this.materialCheckbox1);
+            this.panel1.Controls.Add(this.materialMultiLineTextBox22);
+            this.panel1.Controls.Add(this.materialMultiLineTextBox21);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Name = "panel1";
+            // 
+            // materialDivider1
+            // 
+            this.materialDivider1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialDivider1.Depth = 0;
+            resources.ApplyResources(this.materialDivider1, "materialDivider1");
+            this.materialDivider1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialDivider1.Name = "materialDivider1";
+            // 
+            // pic_fr
+            // 
+            this.pic_fr.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_fr.Image = global::pr2.Properties.Resources.Fr;
+            resources.ApplyResources(this.pic_fr, "pic_fr");
+            this.pic_fr.Name = "pic_fr";
+            this.pic_fr.TabStop = false;
+            this.pic_fr.Click += new System.EventHandler(this.pic_fr_Click);
+            // 
+            // pic_en
+            // 
+            this.pic_en.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_en.Image = global::pr2.Properties.Resources.En1;
+            resources.ApplyResources(this.pic_en, "pic_en");
+            this.pic_en.Name = "pic_en";
+            this.pic_en.TabStop = false;
+            // 
+            // pic_ar
+            // 
+            this.pic_ar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic_ar.Image = global::pr2.Properties.Resources.Ar;
+            resources.ApplyResources(this.pic_ar, "pic_ar");
+            this.pic_ar.Name = "pic_ar";
+            this.pic_ar.TabStop = false;
+            this.pic_ar.Click += new System.EventHandler(this.pic_ar_Click);
+            // 
+            // btn_visible
+            // 
+            this.btn_visible.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn_visible.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btn_visible, "btn_visible");
+            this.btn_visible.ForeColor = System.Drawing.Color.White;
+            this.btn_visible.Image = global::pr2.Properties.Resources.icons8_visible_241;
+            this.btn_visible.Name = "btn_visible";
+            this.btn_visible.UseVisualStyleBackColor = false;
+            this.btn_visible.Click += new System.EventHandler(this.btn_visible_Click);
+            // 
+            // btn_invisible
+            // 
+            this.btn_invisible.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn_invisible.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btn_invisible, "btn_invisible");
+            this.btn_invisible.ForeColor = System.Drawing.Color.White;
+            this.btn_invisible.Image = global::pr2.Properties.Resources.icons8_cacher_24;
+            this.btn_invisible.Name = "btn_invisible";
+            this.btn_invisible.UseVisualStyleBackColor = false;
+            this.btn_invisible.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DarkCyan;
+            this.button1.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox2
+            // 
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Image = global::pr2.Properties.Resources.WhatsApp_Image_2022_04_07_at_23_172;
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            // 
+            // materialLabel2
+            // 
+            resources.ApplyResources(this.materialLabel2, "materialLabel2");
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            // 
+            // materialLabel1
+            // 
+            resources.ApplyResources(this.materialLabel1, "materialLabel1");
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            // 
+            // materialCheckbox1
+            // 
+            resources.ApplyResources(this.materialCheckbox1, "materialCheckbox1");
+            this.materialCheckbox1.Depth = 0;
+            this.materialCheckbox1.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckbox1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckbox1.Name = "materialCheckbox1";
+            this.materialCheckbox1.ReadOnly = false;
+            this.materialCheckbox1.Ripple = true;
+            this.materialCheckbox1.UseVisualStyleBackColor = true;
+            // 
+            // materialMultiLineTextBox22
+            // 
+            this.materialMultiLineTextBox22.AnimateReadOnly = false;
+            resources.ApplyResources(this.materialMultiLineTextBox22, "materialMultiLineTextBox22");
+            this.materialMultiLineTextBox22.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.materialMultiLineTextBox22.Depth = 0;
+            this.materialMultiLineTextBox22.HideSelection = true;
+            this.materialMultiLineTextBox22.MaxLength = 32767;
+            this.materialMultiLineTextBox22.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialMultiLineTextBox22.Name = "materialMultiLineTextBox22";
+            this.materialMultiLineTextBox22.PasswordChar = '*';
+            this.materialMultiLineTextBox22.ReadOnly = false;
+            this.materialMultiLineTextBox22.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.materialMultiLineTextBox22.SelectedText = "";
+            this.materialMultiLineTextBox22.SelectionLength = 0;
+            this.materialMultiLineTextBox22.SelectionStart = 0;
+            this.materialMultiLineTextBox22.ShortcutsEnabled = true;
+            this.materialMultiLineTextBox22.TabStop = false;
+            this.materialMultiLineTextBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.materialMultiLineTextBox22.UseSystemPasswordChar = false;
             // 
             // materialMultiLineTextBox21
             // 
             this.materialMultiLineTextBox21.AnimateReadOnly = false;
-            this.materialMultiLineTextBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            resources.ApplyResources(this.materialMultiLineTextBox21, "materialMultiLineTextBox21");
             this.materialMultiLineTextBox21.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             this.materialMultiLineTextBox21.Depth = 0;
             this.materialMultiLineTextBox21.HideSelection = true;
-            this.materialMultiLineTextBox21.Hint = "User name";
-            this.materialMultiLineTextBox21.Location = new System.Drawing.Point(23, 126);
             this.materialMultiLineTextBox21.MaxLength = 32767;
             this.materialMultiLineTextBox21.MouseState = MaterialSkin.MouseState.OUT;
             this.materialMultiLineTextBox21.Name = "materialMultiLineTextBox21";
@@ -56,135 +209,63 @@
             this.materialMultiLineTextBox21.SelectionLength = 0;
             this.materialMultiLineTextBox21.SelectionStart = 0;
             this.materialMultiLineTextBox21.ShortcutsEnabled = true;
-            this.materialMultiLineTextBox21.Size = new System.Drawing.Size(248, 38);
-            this.materialMultiLineTextBox21.TabIndex = 0;
             this.materialMultiLineTextBox21.TabStop = false;
             this.materialMultiLineTextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.materialMultiLineTextBox21.UseSystemPasswordChar = false;
             // 
-            // materialMultiLineTextBox22
+            // pictureBox3
             // 
-            this.materialMultiLineTextBox22.AnimateReadOnly = false;
-            this.materialMultiLineTextBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.materialMultiLineTextBox22.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.materialMultiLineTextBox22.Depth = 0;
-            this.materialMultiLineTextBox22.HideSelection = true;
-            this.materialMultiLineTextBox22.Hint = "Password";
-            this.materialMultiLineTextBox22.Location = new System.Drawing.Point(23, 206);
-            this.materialMultiLineTextBox22.MaxLength = 32767;
-            this.materialMultiLineTextBox22.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialMultiLineTextBox22.Name = "materialMultiLineTextBox22";
-            this.materialMultiLineTextBox22.PasswordChar = '\0';
-            this.materialMultiLineTextBox22.ReadOnly = false;
-            this.materialMultiLineTextBox22.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.materialMultiLineTextBox22.SelectedText = "";
-            this.materialMultiLineTextBox22.SelectionLength = 0;
-            this.materialMultiLineTextBox22.SelectionStart = 0;
-            this.materialMultiLineTextBox22.ShortcutsEnabled = true;
-            this.materialMultiLineTextBox22.Size = new System.Drawing.Size(248, 37);
-            this.materialMultiLineTextBox22.TabIndex = 1;
-            this.materialMultiLineTextBox22.TabStop = false;
-            this.materialMultiLineTextBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.materialMultiLineTextBox22.UseSystemPasswordChar = false;
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
+            this.pictureBox3.Image = global::pr2.Properties.Resources.jj;
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.TabStop = false;
             // 
-            // materialCheckbox1
+            // panel2
             // 
-            this.materialCheckbox1.AutoSize = true;
-            this.materialCheckbox1.Depth = 0;
-            this.materialCheckbox1.Location = new System.Drawing.Point(23, 272);
-            this.materialCheckbox1.Margin = new System.Windows.Forms.Padding(0);
-            this.materialCheckbox1.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialCheckbox1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCheckbox1.Name = "materialCheckbox1";
-            this.materialCheckbox1.ReadOnly = false;
-            this.materialCheckbox1.Ripple = true;
-            this.materialCheckbox1.Size = new System.Drawing.Size(137, 37);
-            this.materialCheckbox1.TabIndex = 2;
-            this.materialCheckbox1.Text = "Remember me";
-            this.materialCheckbox1.UseVisualStyleBackColor = true;
-            // 
-            // materialButton1
-            // 
-            this.materialButton1.AutoSize = false;
-            this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton1.Depth = 0;
-            this.materialButton1.HighEmphasis = true;
-            this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(196, 320);
-            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton1.Name = "materialButton1";
-            this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton1.Size = new System.Drawing.Size(75, 36);
-            this.materialButton1.TabIndex = 3;
-            this.materialButton1.Text = "Login";
-            this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton1.UseAccentColor = false;
-            this.materialButton1.UseVisualStyleBackColor = true;
-            // 
-            // materialLabel1
-            // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(39, 389);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(152, 19);
-            this.materialLabel1.TabIndex = 4;
-            this.materialLabel1.Text = "Lost your password ?";
-            // 
-            // materialDivider1
-            // 
-            this.materialDivider1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialDivider1.Depth = 0;
-            this.materialDivider1.Location = new System.Drawing.Point(15, 363);
-            this.materialDivider1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialDivider1.Name = "materialDivider1";
-            this.materialDivider1.Size = new System.Drawing.Size(277, 5);
-            this.materialDivider1.TabIndex = 5;
-            this.materialDivider1.Text = "materialDivider1";
-            // 
-            // materialLabel2
-            // 
-            this.materialLabel2.AutoSize = true;
-            this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel2.Location = new System.Drawing.Point(213, 389);
-            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(58, 19);
-            this.materialLabel2.TabIndex = 6;
-            this.materialLabel2.Text = "Register";
+            this.panel2.BackgroundImage = global::pr2.Properties.Resources.Screenshot__8_1;
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Name = "panel2";
             // 
             // login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(903, 564);
-            this.Controls.Add(this.materialLabel2);
-            this.Controls.Add(this.materialDivider1);
-            this.Controls.Add(this.materialLabel1);
-            this.Controls.Add(this.materialButton1);
-            this.Controls.Add(this.materialCheckbox1);
-            this.Controls.Add(this.materialMultiLineTextBox22);
-            this.Controls.Add(this.materialMultiLineTextBox21);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.FormStyle = MaterialSkin.Controls.MaterialForm.FormStyles.ActionBar_None;
             this.Name = "login";
-            this.Text = "login";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_fr)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_en)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_ar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private MaterialSkin.Controls.MaterialMultiLineTextBox2 materialMultiLineTextBox21;
-        private MaterialSkin.Controls.MaterialMultiLineTextBox2 materialMultiLineTextBox22;
-        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox1;
-        private MaterialSkin.Controls.MaterialButton materialButton1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
-        private MaterialSkin.Controls.MaterialDivider materialDivider1;
+        private Panel panel1;
+        private PictureBox pictureBox2;
+        private Button button1;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
+        private MaterialSkin.Controls.MaterialDivider materialDivider1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox1;
+        private MaterialSkin.Controls.MaterialMultiLineTextBox2 materialMultiLineTextBox22;
+        private MaterialSkin.Controls.MaterialMultiLineTextBox2 materialMultiLineTextBox21;
+        private PictureBox pictureBox3;
+        private Button btn_invisible;
+        private Button button3;
+        private Button btn_visible;
+        private PictureBox pic_fr;
+        private PictureBox pic_en;
+        private PictureBox pic_ar;
+        private MaterialSkin.Controls.MaterialRadioButton materialRadioButton1;
+        private MaterialSkin.Controls.MaterialRadioButton materialRadioButton3;
+        private MaterialSkin.Controls.MaterialRadioButton materialRadioButton2;
+        private Panel panel2;
     }
 }

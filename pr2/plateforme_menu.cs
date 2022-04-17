@@ -15,9 +15,11 @@ namespace pr2
 {
     public partial class plateforme_menu : MaterialForm
     {
-        public plateforme_menu()
+        string user_name = "";
+        public plateforme_menu(string user_name)
         {
             InitializeComponent();
+            this.user_name = user_name;
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.EnforceBackcolorOnAllComponents = false;
             materialSkinManager.AddFormToManage(this);
@@ -27,17 +29,17 @@ namespace pr2
         string sc = "datasource=localhost;username=root;password=;database=db_menu9_";
         private void Form4_Load(object sender, EventArgs e)
         {
-            MySqlConnection cn = new MySqlConnection(sc);
-            cn.Open();
-            MySqlCommand com = new MySqlCommand("SELECT  `fisrt_name`, `last_name`, `birth_date`, `adresse`, `phone` FROM `student` ", cn);
-            MySqlDataReader dr = com.ExecuteReader();
-            DataTable table = new DataTable();
-            table.Load(dr);
+           // MySqlConnection cn = new MySqlConnection(sc);
+           // cn.Open();
+           // MySqlCommand com = new MySqlCommand("SELECT  `fisrt_name`, `last_name`, `birth_date`, `adresse`, `phone` FROM `student` ", cn);
+           // MySqlDataReader dr = com.ExecuteReader();
+           // DataTable table = new DataTable();
+           // table.Load(dr);
 
-            dataGridView1.DataSource = table;
+           //// dataGridView1.DataSource = table;
 
-            dr.Close();
-            cn.Close();
+           // dr.Close();
+           // cn.Close();
             
         }
 
@@ -48,9 +50,14 @@ namespace pr2
 
         private void materialFloatingActionButton1_Click(object sender, EventArgs e)
         {
-           
-            
-           
+            //this.Hide();
+            //admin_menu1 m = new admin_menu1();
+            //m.Show();
+
+            this.Hide();
+            var admin_menu1 = new admin_menu1(user_name);
+            admin_menu1.Closed += (s, args) => this.Close();
+            admin_menu1.Show();
         }
     }
 }
