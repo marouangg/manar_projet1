@@ -44,13 +44,14 @@
             this.materialMultiLineTextBox22 = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
             this.materialMultiLineTextBox21 = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_fr)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_en)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_ar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -75,43 +76,43 @@
             // 
             // materialDivider1
             // 
+            resources.ApplyResources(this.materialDivider1, "materialDivider1");
             this.materialDivider1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialDivider1.Depth = 0;
-            resources.ApplyResources(this.materialDivider1, "materialDivider1");
             this.materialDivider1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialDivider1.Name = "materialDivider1";
             // 
             // pic_fr
             // 
+            resources.ApplyResources(this.pic_fr, "pic_fr");
             this.pic_fr.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pic_fr.Image = global::pr2.Properties.Resources.Fr;
-            resources.ApplyResources(this.pic_fr, "pic_fr");
             this.pic_fr.Name = "pic_fr";
             this.pic_fr.TabStop = false;
             this.pic_fr.Click += new System.EventHandler(this.pic_fr_Click);
             // 
             // pic_en
             // 
+            resources.ApplyResources(this.pic_en, "pic_en");
             this.pic_en.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pic_en.Image = global::pr2.Properties.Resources.En1;
-            resources.ApplyResources(this.pic_en, "pic_en");
             this.pic_en.Name = "pic_en";
             this.pic_en.TabStop = false;
             // 
             // pic_ar
             // 
+            resources.ApplyResources(this.pic_ar, "pic_ar");
             this.pic_ar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pic_ar.Image = global::pr2.Properties.Resources.Ar;
-            resources.ApplyResources(this.pic_ar, "pic_ar");
             this.pic_ar.Name = "pic_ar";
             this.pic_ar.TabStop = false;
             this.pic_ar.Click += new System.EventHandler(this.pic_ar_Click);
             // 
             // btn_visible
             // 
+            resources.ApplyResources(this.btn_visible, "btn_visible");
             this.btn_visible.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btn_visible.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.btn_visible, "btn_visible");
             this.btn_visible.ForeColor = System.Drawing.Color.White;
             this.btn_visible.Image = global::pr2.Properties.Resources.icons8_visible_241;
             this.btn_visible.Name = "btn_visible";
@@ -120,9 +121,9 @@
             // 
             // btn_invisible
             // 
+            resources.ApplyResources(this.btn_invisible, "btn_invisible");
             this.btn_invisible.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btn_invisible.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.btn_invisible, "btn_invisible");
             this.btn_invisible.ForeColor = System.Drawing.Color.White;
             this.btn_invisible.Image = global::pr2.Properties.Resources.icons8_cacher_24;
             this.btn_invisible.Name = "btn_invisible";
@@ -131,9 +132,9 @@
             // 
             // button1
             // 
+            resources.ApplyResources(this.button1, "button1");
             this.button1.BackColor = System.Drawing.Color.DarkCyan;
             this.button1.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.button1, "button1");
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
@@ -173,8 +174,8 @@
             // 
             // materialMultiLineTextBox22
             // 
-            this.materialMultiLineTextBox22.AnimateReadOnly = false;
             resources.ApplyResources(this.materialMultiLineTextBox22, "materialMultiLineTextBox22");
+            this.materialMultiLineTextBox22.AnimateReadOnly = false;
             this.materialMultiLineTextBox22.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             this.materialMultiLineTextBox22.Depth = 0;
             this.materialMultiLineTextBox22.HideSelection = true;
@@ -194,8 +195,8 @@
             // 
             // materialMultiLineTextBox21
             // 
-            this.materialMultiLineTextBox21.AnimateReadOnly = false;
             resources.ApplyResources(this.materialMultiLineTextBox21, "materialMultiLineTextBox21");
+            this.materialMultiLineTextBox21.AnimateReadOnly = false;
             this.materialMultiLineTextBox21.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             this.materialMultiLineTextBox21.Depth = 0;
             this.materialMultiLineTextBox21.HideSelection = true;
@@ -220,18 +221,19 @@
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.TabStop = false;
             // 
-            // panel2
+            // pictureBox1
             // 
-            this.panel2.BackgroundImage = global::pr2.Properties.Resources.pexels_oleksandr_pidvalnyi_2781814;
-            resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.Name = "panel2";
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::pr2.Properties.Resources.pexels_oleksandr_pidvalnyi_2781814;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
             // 
             // login
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pictureBox1);
             this.FormStyle = MaterialSkin.Controls.MaterialForm.FormStyles.ActionBar_None;
             this.Name = "login";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -242,6 +244,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic_ar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -266,6 +269,6 @@
         private MaterialSkin.Controls.MaterialRadioButton materialRadioButton1;
         private MaterialSkin.Controls.MaterialRadioButton materialRadioButton3;
         private MaterialSkin.Controls.MaterialRadioButton materialRadioButton2;
-        private Panel panel2;
+        private PictureBox pictureBox1;
     }
 }

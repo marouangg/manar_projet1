@@ -121,6 +121,8 @@ namespace pr2
             materialMultiLineTextBox21.TextAlign = HorizontalAlignment.Left;
             materialMultiLineTextBox22.TextAlign = HorizontalAlignment.Left;
             theme();
+        
+        
         }
 
         private void pic_fr_Click(object sender, EventArgs e)

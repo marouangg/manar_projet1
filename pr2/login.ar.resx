@@ -73,6 +73,18 @@
   <data name="materialLabel1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 14px</value>
   </data>
+  <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 19</value>
+  </data>
+  <data name="materialLabel1.Text" xml:space="preserve">
+    <value>فقدت كلمة المرور الخاصة بك ؟</value>
+  </data>
+  <data name="materialCheckbox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 37</value>
+  </data>
+  <data name="materialCheckbox1.Text" xml:space="preserve">
+    <value>تذكرنى</value>
+  </data>
   <data name="materialMultiLineTextBox22.Hint" xml:space="preserve">
     <value>كلمه السر</value>
   </data>
