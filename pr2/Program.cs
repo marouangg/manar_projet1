@@ -14,7 +14,7 @@ namespace pr2
           // Application.Run(new admin_menu2());
 
          //  Application.Run(new login());
-         Application.Run(new login());
+         Application.Run(new PlateForme.Cycle.frm_Cycle());
 
             // admin_menu2 f = new admin_menu2();
 

@@ -30,11 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(admin_menu1));
             this.materialCard1 = new MaterialSkin.Controls.MaterialCard();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.label11 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.materialFloatingActionButton1 = new MaterialSkin.Controls.MaterialFloatingActionButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.materialSwitch1 = new MaterialSkin.Controls.MaterialSwitch();
@@ -229,29 +226,16 @@
             // 
             // materialCard1
             // 
+            resources.ApplyResources(this.materialCard1, "materialCard1");
             this.materialCard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard1.Controls.Add(this.label3);
-            this.materialCard1.Controls.Add(this.label10);
             this.materialCard1.Controls.Add(this.materialLabel2);
             this.materialCard1.Controls.Add(this.label11);
-            this.materialCard1.Controls.Add(this.label16);
             this.materialCard1.Controls.Add(this.materialFloatingActionButton1);
             this.materialCard1.Controls.Add(this.pictureBox1);
             this.materialCard1.Depth = 0;
             this.materialCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard1, "materialCard1");
             this.materialCard1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard1.Name = "materialCard1";
-            // 
-            // label3
-            // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
-            // 
-            // label10
-            // 
-            resources.ApplyResources(this.label10, "label10");
-            this.label10.Name = "label10";
             // 
             // materialLabel2
             // 
@@ -266,18 +250,13 @@
             resources.ApplyResources(this.label11, "label11");
             this.label11.Name = "label11";
             // 
-            // label16
-            // 
-            resources.ApplyResources(this.label16, "label16");
-            this.label16.Name = "label16";
-            // 
             // materialFloatingActionButton1
             // 
+            resources.ApplyResources(this.materialFloatingActionButton1, "materialFloatingActionButton1");
             this.materialFloatingActionButton1.AnimateShowHideButton = true;
             this.materialFloatingActionButton1.BackColor = System.Drawing.SystemColors.InfoText;
             this.materialFloatingActionButton1.Depth = 0;
             this.materialFloatingActionButton1.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.materialFloatingActionButton1, "materialFloatingActionButton1");
             this.materialFloatingActionButton1.Icon = global::pr2.Properties.Resources.icons8_statistic_32;
             this.materialFloatingActionButton1.Image = global::pr2.Properties.Resources.house__1_;
             this.materialFloatingActionButton1.Mini = true;
@@ -287,8 +266,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::pr2.Properties.Resources.test1card;
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::pr2.Properties.Resources.test1card;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
@@ -305,6 +284,7 @@
             // 
             // materialCard2
             // 
+            resources.ApplyResources(this.materialCard2, "materialCard2");
             this.materialCard2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard2.Controls.Add(this.materialFloatingActionButton2);
             this.materialCard2.Controls.Add(this.label9);
@@ -317,17 +297,16 @@
             this.materialCard2.Controls.Add(this.label4);
             this.materialCard2.Depth = 0;
             this.materialCard2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard2, "materialCard2");
             this.materialCard2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard2.Name = "materialCard2";
             // 
             // materialFloatingActionButton2
             // 
+            resources.ApplyResources(this.materialFloatingActionButton2, "materialFloatingActionButton2");
             this.materialFloatingActionButton2.BackColor = System.Drawing.Color.White;
             this.materialFloatingActionButton2.Depth = 0;
             this.materialFloatingActionButton2.DrawShadows = false;
             this.materialFloatingActionButton2.Icon = global::pr2.Properties.Resources.icons8_école_1001;
-            resources.ApplyResources(this.materialFloatingActionButton2, "materialFloatingActionButton2");
             this.materialFloatingActionButton2.Mini = true;
             this.materialFloatingActionButton2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton2.Name = "materialFloatingActionButton2";
@@ -373,8 +352,8 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::pr2.Properties.Resources.images__3_;
             resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Image = global::pr2.Properties.Resources.images__3_;
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
             // 
@@ -385,6 +364,7 @@
             // 
             // materialCard3
             // 
+            resources.ApplyResources(this.materialCard3, "materialCard3");
             this.materialCard3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard3.Controls.Add(this.materialFloatingActionButton3);
             this.materialCard3.Controls.Add(this.materialLabel3);
@@ -392,17 +372,16 @@
             this.materialCard3.Controls.Add(this.label15);
             this.materialCard3.Depth = 0;
             this.materialCard3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard3, "materialCard3");
             this.materialCard3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard3.Name = "materialCard3";
             // 
             // materialFloatingActionButton3
             // 
+            resources.ApplyResources(this.materialFloatingActionButton3, "materialFloatingActionButton3");
             this.materialFloatingActionButton3.BackColor = System.Drawing.Color.White;
             this.materialFloatingActionButton3.Depth = 0;
             this.materialFloatingActionButton3.DrawShadows = false;
             this.materialFloatingActionButton3.Icon = global::pr2.Properties.Resources.icons8_organigramme_901;
-            resources.ApplyResources(this.materialFloatingActionButton3, "materialFloatingActionButton3");
             this.materialFloatingActionButton3.Mini = true;
             this.materialFloatingActionButton3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton3.Name = "materialFloatingActionButton3";
@@ -418,8 +397,8 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::pr2.Properties.Resources.gettyimages_872257244_612x612;
             resources.ApplyResources(this.pictureBox3, "pictureBox3");
+            this.pictureBox3.Image = global::pr2.Properties.Resources.gettyimages_872257244_612x612;
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.TabStop = false;
             // 
@@ -430,6 +409,7 @@
             // 
             // materialCard4
             // 
+            resources.ApplyResources(this.materialCard4, "materialCard4");
             this.materialCard4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard4.Controls.Add(this.materialFloatingActionButton4);
             this.materialCard4.Controls.Add(this.label17);
@@ -441,17 +421,16 @@
             this.materialCard4.Controls.Add(this.label21);
             this.materialCard4.Depth = 0;
             this.materialCard4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard4, "materialCard4");
             this.materialCard4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard4.Name = "materialCard4";
             // 
             // materialFloatingActionButton4
             // 
+            resources.ApplyResources(this.materialFloatingActionButton4, "materialFloatingActionButton4");
             this.materialFloatingActionButton4.BackColor = System.Drawing.Color.White;
             this.materialFloatingActionButton4.Depth = 0;
             this.materialFloatingActionButton4.DrawShadows = false;
             this.materialFloatingActionButton4.Icon = global::pr2.Properties.Resources.icons8_calendrier_901;
-            resources.ApplyResources(this.materialFloatingActionButton4, "materialFloatingActionButton4");
             this.materialFloatingActionButton4.Mini = true;
             this.materialFloatingActionButton4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton4.Name = "materialFloatingActionButton4";
@@ -487,8 +466,8 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::pr2.Properties.Resources.images;
             resources.ApplyResources(this.pictureBox4, "pictureBox4");
+            this.pictureBox4.Image = global::pr2.Properties.Resources.images;
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.TabStop = false;
             // 
@@ -499,6 +478,7 @@
             // 
             // materialCard5
             // 
+            resources.ApplyResources(this.materialCard5, "materialCard5");
             this.materialCard5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard5.Controls.Add(this.materialFloatingActionButton5);
             this.materialCard5.Controls.Add(this.label22);
@@ -511,17 +491,16 @@
             this.materialCard5.Controls.Add(this.label27);
             this.materialCard5.Depth = 0;
             this.materialCard5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard5, "materialCard5");
             this.materialCard5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard5.Name = "materialCard5";
             // 
             // materialFloatingActionButton5
             // 
+            resources.ApplyResources(this.materialFloatingActionButton5, "materialFloatingActionButton5");
             this.materialFloatingActionButton5.BackColor = System.Drawing.Color.White;
             this.materialFloatingActionButton5.Depth = 0;
             this.materialFloatingActionButton5.DrawShadows = false;
             this.materialFloatingActionButton5.Icon = global::pr2.Properties.Resources.icons8_graduation_642;
-            resources.ApplyResources(this.materialFloatingActionButton5, "materialFloatingActionButton5");
             this.materialFloatingActionButton5.Mini = true;
             this.materialFloatingActionButton5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton5.Name = "materialFloatingActionButton5";
@@ -563,8 +542,8 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::pr2.Properties.Resources.images1;
             resources.ApplyResources(this.pictureBox5, "pictureBox5");
+            this.pictureBox5.Image = global::pr2.Properties.Resources.images1;
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.TabStop = false;
             // 
@@ -575,6 +554,7 @@
             // 
             // materialCard6
             // 
+            resources.ApplyResources(this.materialCard6, "materialCard6");
             this.materialCard6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard6.Controls.Add(this.materialFloatingActionButton6);
             this.materialCard6.Controls.Add(this.label28);
@@ -587,17 +567,16 @@
             this.materialCard6.Controls.Add(this.label33);
             this.materialCard6.Depth = 0;
             this.materialCard6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard6, "materialCard6");
             this.materialCard6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard6.Name = "materialCard6";
             // 
             // materialFloatingActionButton6
             // 
+            resources.ApplyResources(this.materialFloatingActionButton6, "materialFloatingActionButton6");
             this.materialFloatingActionButton6.BackColor = System.Drawing.Color.White;
             this.materialFloatingActionButton6.Depth = 0;
             this.materialFloatingActionButton6.DrawShadows = false;
             this.materialFloatingActionButton6.Icon = global::pr2.Properties.Resources.icons8_bus_scolaire_traditionnel_641;
-            resources.ApplyResources(this.materialFloatingActionButton6, "materialFloatingActionButton6");
             this.materialFloatingActionButton6.Mini = true;
             this.materialFloatingActionButton6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton6.Name = "materialFloatingActionButton6";
@@ -638,8 +617,8 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::pr2.Properties.Resources.images__6_;
             resources.ApplyResources(this.pictureBox6, "pictureBox6");
+            this.pictureBox6.Image = global::pr2.Properties.Resources.images__6_;
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.TabStop = false;
             // 
@@ -650,6 +629,7 @@
             // 
             // materialCard7
             // 
+            resources.ApplyResources(this.materialCard7, "materialCard7");
             this.materialCard7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard7.Controls.Add(this.materialFloatingActionButton7);
             this.materialCard7.Controls.Add(this.label34);
@@ -662,17 +642,16 @@
             this.materialCard7.Controls.Add(this.label39);
             this.materialCard7.Depth = 0;
             this.materialCard7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard7, "materialCard7");
             this.materialCard7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard7.Name = "materialCard7";
             // 
             // materialFloatingActionButton7
             // 
+            resources.ApplyResources(this.materialFloatingActionButton7, "materialFloatingActionButton7");
             this.materialFloatingActionButton7.BackColor = System.Drawing.Color.White;
             this.materialFloatingActionButton7.Depth = 0;
             this.materialFloatingActionButton7.DrawShadows = false;
             this.materialFloatingActionButton7.Icon = global::pr2.Properties.Resources.icons8_musique_961;
-            resources.ApplyResources(this.materialFloatingActionButton7, "materialFloatingActionButton7");
             this.materialFloatingActionButton7.Mini = true;
             this.materialFloatingActionButton7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton7.Name = "materialFloatingActionButton7";
@@ -713,8 +692,8 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::pr2.Properties.Resources.apple_music_note;
             resources.ApplyResources(this.pictureBox7, "pictureBox7");
+            this.pictureBox7.Image = global::pr2.Properties.Resources.apple_music_note;
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.TabStop = false;
             // 
@@ -725,6 +704,7 @@
             // 
             // materialCard8
             // 
+            resources.ApplyResources(this.materialCard8, "materialCard8");
             this.materialCard8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard8.Controls.Add(this.materialFloatingActionButton8);
             this.materialCard8.Controls.Add(this.label40);
@@ -736,17 +716,16 @@
             this.materialCard8.Controls.Add(this.label45);
             this.materialCard8.Depth = 0;
             this.materialCard8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard8, "materialCard8");
             this.materialCard8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard8.Name = "materialCard8";
             // 
             // materialFloatingActionButton8
             // 
+            resources.ApplyResources(this.materialFloatingActionButton8, "materialFloatingActionButton8");
             this.materialFloatingActionButton8.BackColor = System.Drawing.Color.White;
             this.materialFloatingActionButton8.Depth = 0;
             this.materialFloatingActionButton8.DrawShadows = false;
             this.materialFloatingActionButton8.Icon = global::pr2.Properties.Resources.icons8_double_coche_1001;
-            resources.ApplyResources(this.materialFloatingActionButton8, "materialFloatingActionButton8");
             this.materialFloatingActionButton8.Mini = true;
             this.materialFloatingActionButton8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton8.Name = "materialFloatingActionButton8";
@@ -782,8 +761,8 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::pr2.Properties.Resources.images__5_;
             resources.ApplyResources(this.pictureBox8, "pictureBox8");
+            this.pictureBox8.Image = global::pr2.Properties.Resources.images__5_;
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.TabStop = false;
             // 
@@ -794,6 +773,7 @@
             // 
             // materialCard9
             // 
+            resources.ApplyResources(this.materialCard9, "materialCard9");
             this.materialCard9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard9.Controls.Add(this.materialFloatingActionButton9);
             this.materialCard9.Controls.Add(this.label46);
@@ -806,17 +786,16 @@
             this.materialCard9.Controls.Add(this.label51);
             this.materialCard9.Depth = 0;
             this.materialCard9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard9, "materialCard9");
             this.materialCard9.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard9.Name = "materialCard9";
             // 
             // materialFloatingActionButton9
             // 
+            resources.ApplyResources(this.materialFloatingActionButton9, "materialFloatingActionButton9");
             this.materialFloatingActionButton9.BackColor = System.Drawing.Color.White;
             this.materialFloatingActionButton9.Depth = 0;
             this.materialFloatingActionButton9.DrawShadows = false;
             this.materialFloatingActionButton9.Icon = global::pr2.Properties.Resources.icons8_graphique_1001;
-            resources.ApplyResources(this.materialFloatingActionButton9, "materialFloatingActionButton9");
             this.materialFloatingActionButton9.Mini = true;
             this.materialFloatingActionButton9.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton9.Name = "materialFloatingActionButton9";
@@ -857,8 +836,8 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Image = global::pr2.Properties.Resources.images__4_;
             resources.ApplyResources(this.pictureBox9, "pictureBox9");
+            this.pictureBox9.Image = global::pr2.Properties.Resources.images__4_;
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.TabStop = false;
             // 
@@ -869,6 +848,7 @@
             // 
             // materialCard10
             // 
+            resources.ApplyResources(this.materialCard10, "materialCard10");
             this.materialCard10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard10.Controls.Add(this.label52);
             this.materialCard10.Controls.Add(this.label53);
@@ -881,7 +861,6 @@
             this.materialCard10.Controls.Add(this.pictureBox10);
             this.materialCard10.Depth = 0;
             this.materialCard10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard10, "materialCard10");
             this.materialCard10.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard10.Name = "materialCard10";
             // 
@@ -925,11 +904,11 @@
             // 
             // materialFloatingActionButton10
             // 
+            resources.ApplyResources(this.materialFloatingActionButton10, "materialFloatingActionButton10");
             this.materialFloatingActionButton10.AnimateShowHideButton = true;
             this.materialFloatingActionButton10.BackColor = System.Drawing.SystemColors.InfoText;
             this.materialFloatingActionButton10.Depth = 0;
             this.materialFloatingActionButton10.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.materialFloatingActionButton10, "materialFloatingActionButton10");
             this.materialFloatingActionButton10.Icon = global::pr2.Properties.Resources.icons8_calendrier_902;
             this.materialFloatingActionButton10.Image = global::pr2.Properties.Resources.house__1_;
             this.materialFloatingActionButton10.Mini = true;
@@ -939,16 +918,16 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Image = global::pr2.Properties.Resources.download;
             resources.ApplyResources(this.pictureBox10, "pictureBox10");
+            this.pictureBox10.Image = global::pr2.Properties.Resources.download;
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.TabStop = false;
             // 
             // button19
             // 
+            resources.ApplyResources(this.button19, "button19");
             this.button19.BackColor = System.Drawing.Color.Transparent;
             this.button19.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.button19, "button19");
             this.button19.ForeColor = System.Drawing.Color.White;
             this.button19.Image = global::pr2.Properties.Resources.icons8_menu_2_241;
             this.button19.Name = "button19";
@@ -958,6 +937,7 @@
             // 
             // mc_theme
             // 
+            resources.ApplyResources(this.mc_theme, "mc_theme");
             this.mc_theme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.mc_theme.Controls.Add(this.pic_en);
             this.mc_theme.Controls.Add(this.pic_fr);
@@ -972,7 +952,6 @@
             this.mc_theme.Controls.Add(this.materialSwitch1);
             this.mc_theme.Depth = 0;
             this.mc_theme.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.mc_theme, "mc_theme");
             this.mc_theme.MouseState = MaterialSkin.MouseState.HOVER;
             this.mc_theme.Name = "mc_theme";
             this.mc_theme.MouseClick += new System.Windows.Forms.MouseEventHandler(this.mc_theme_MouseClick);
@@ -995,23 +974,23 @@
             // 
             // panel2
             // 
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(188)))), ((int)(((byte)(156)))));
             this.panel2.Controls.Add(this.materialLabel17);
             this.panel2.Controls.Add(this.pictureBox13);
-            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
             // materialLabel17
             // 
-            this.materialLabel17.Depth = 0;
             resources.ApplyResources(this.materialLabel17, "materialLabel17");
+            this.materialLabel17.Depth = 0;
             this.materialLabel17.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel17.Name = "materialLabel17";
             // 
             // pictureBox13
             // 
-            this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.pictureBox13, "pictureBox13");
+            this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox13.Image = global::pr2.Properties.Resources.icons8_groupe_arrière_plan_sélectionné_50__2_;
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.TabStop = false;
@@ -1072,6 +1051,7 @@
             // 
             // materialCard11
             // 
+            resources.ApplyResources(this.materialCard11, "materialCard11");
             this.materialCard11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard11.Controls.Add(this.label1);
             this.materialCard11.Controls.Add(this.label2);
@@ -1084,7 +1064,6 @@
             this.materialCard11.Controls.Add(this.pictureBox11);
             this.materialCard11.Depth = 0;
             this.materialCard11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard11, "materialCard11");
             this.materialCard11.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard11.Name = "materialCard11";
             // 
@@ -1128,11 +1107,11 @@
             // 
             // materialFloatingActionButton11
             // 
+            resources.ApplyResources(this.materialFloatingActionButton11, "materialFloatingActionButton11");
             this.materialFloatingActionButton11.AnimateShowHideButton = true;
             this.materialFloatingActionButton11.BackColor = System.Drawing.SystemColors.InfoText;
             this.materialFloatingActionButton11.Depth = 0;
             this.materialFloatingActionButton11.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.materialFloatingActionButton11, "materialFloatingActionButton11");
             this.materialFloatingActionButton11.Icon = global::pr2.Properties.Resources.icons8_calendrier_902;
             this.materialFloatingActionButton11.Image = global::pr2.Properties.Resources.house__1_;
             this.materialFloatingActionButton11.Mini = true;
@@ -1142,18 +1121,18 @@
             // 
             // pictureBox11
             // 
-            this.pictureBox11.Image = global::pr2.Properties.Resources.download;
             resources.ApplyResources(this.pictureBox11, "pictureBox11");
+            this.pictureBox11.Image = global::pr2.Properties.Resources.download;
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.TabStop = false;
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.label41);
             this.panel1.Controls.Add(this.pictureBox12);
             this.panel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // label41
@@ -1171,6 +1150,7 @@
             // 
             // materialCard12
             // 
+            resources.ApplyResources(this.materialCard12, "materialCard12");
             this.materialCard12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard12.Controls.Add(this.materialFloatingActionButton12);
             this.materialCard12.Controls.Add(this.label59);
@@ -1183,17 +1163,16 @@
             this.materialCard12.Controls.Add(this.label64);
             this.materialCard12.Depth = 0;
             this.materialCard12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard12, "materialCard12");
             this.materialCard12.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard12.Name = "materialCard12";
             // 
             // materialFloatingActionButton12
             // 
+            resources.ApplyResources(this.materialFloatingActionButton12, "materialFloatingActionButton12");
             this.materialFloatingActionButton12.BackColor = System.Drawing.Color.White;
             this.materialFloatingActionButton12.Depth = 0;
             this.materialFloatingActionButton12.DrawShadows = false;
             this.materialFloatingActionButton12.Icon = global::pr2.Properties.Resources.icons8_bus_scolaire_traditionnel_641;
-            resources.ApplyResources(this.materialFloatingActionButton12, "materialFloatingActionButton12");
             this.materialFloatingActionButton12.Mini = true;
             this.materialFloatingActionButton12.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton12.Name = "materialFloatingActionButton12";
@@ -1234,8 +1213,8 @@
             // 
             // pictureBox14
             // 
-            this.pictureBox14.Image = global::pr2.Properties.Resources.images__6_;
             resources.ApplyResources(this.pictureBox14, "pictureBox14");
+            this.pictureBox14.Image = global::pr2.Properties.Resources.images__6_;
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.TabStop = false;
             // 
@@ -1246,6 +1225,7 @@
             // 
             // materialCard13
             // 
+            resources.ApplyResources(this.materialCard13, "materialCard13");
             this.materialCard13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard13.Controls.Add(this.materialFloatingActionButton13);
             this.materialCard13.Controls.Add(this.label65);
@@ -1258,17 +1238,16 @@
             this.materialCard13.Controls.Add(this.label70);
             this.materialCard13.Depth = 0;
             this.materialCard13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard13, "materialCard13");
             this.materialCard13.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard13.Name = "materialCard13";
             // 
             // materialFloatingActionButton13
             // 
+            resources.ApplyResources(this.materialFloatingActionButton13, "materialFloatingActionButton13");
             this.materialFloatingActionButton13.BackColor = System.Drawing.Color.White;
             this.materialFloatingActionButton13.Depth = 0;
             this.materialFloatingActionButton13.DrawShadows = false;
             this.materialFloatingActionButton13.Icon = global::pr2.Properties.Resources.icons8_musique_961;
-            resources.ApplyResources(this.materialFloatingActionButton13, "materialFloatingActionButton13");
             this.materialFloatingActionButton13.Mini = true;
             this.materialFloatingActionButton13.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton13.Name = "materialFloatingActionButton13";
@@ -1309,8 +1288,8 @@
             // 
             // pictureBox15
             // 
-            this.pictureBox15.Image = global::pr2.Properties.Resources.apple_music_note;
             resources.ApplyResources(this.pictureBox15, "pictureBox15");
+            this.pictureBox15.Image = global::pr2.Properties.Resources.apple_music_note;
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.TabStop = false;
             // 
@@ -1321,6 +1300,7 @@
             // 
             // materialCard14
             // 
+            resources.ApplyResources(this.materialCard14, "materialCard14");
             this.materialCard14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard14.Controls.Add(this.materialFloatingActionButton14);
             this.materialCard14.Controls.Add(this.label71);
@@ -1332,17 +1312,16 @@
             this.materialCard14.Controls.Add(this.label75);
             this.materialCard14.Depth = 0;
             this.materialCard14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard14, "materialCard14");
             this.materialCard14.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard14.Name = "materialCard14";
             // 
             // materialFloatingActionButton14
             // 
+            resources.ApplyResources(this.materialFloatingActionButton14, "materialFloatingActionButton14");
             this.materialFloatingActionButton14.BackColor = System.Drawing.Color.White;
             this.materialFloatingActionButton14.Depth = 0;
             this.materialFloatingActionButton14.DrawShadows = false;
             this.materialFloatingActionButton14.Icon = global::pr2.Properties.Resources.icons8_double_coche_1001;
-            resources.ApplyResources(this.materialFloatingActionButton14, "materialFloatingActionButton14");
             this.materialFloatingActionButton14.Mini = true;
             this.materialFloatingActionButton14.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton14.Name = "materialFloatingActionButton14";
@@ -1378,8 +1357,8 @@
             // 
             // pictureBox16
             // 
-            this.pictureBox16.Image = global::pr2.Properties.Resources.images__5_;
             resources.ApplyResources(this.pictureBox16, "pictureBox16");
+            this.pictureBox16.Image = global::pr2.Properties.Resources.images__5_;
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.TabStop = false;
             // 
@@ -1390,6 +1369,7 @@
             // 
             // materialCard15
             // 
+            resources.ApplyResources(this.materialCard15, "materialCard15");
             this.materialCard15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard15.Controls.Add(this.materialFloatingActionButton15);
             this.materialCard15.Controls.Add(this.label76);
@@ -1402,17 +1382,16 @@
             this.materialCard15.Controls.Add(this.label81);
             this.materialCard15.Depth = 0;
             this.materialCard15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.materialCard15, "materialCard15");
             this.materialCard15.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard15.Name = "materialCard15";
             // 
             // materialFloatingActionButton15
             // 
+            resources.ApplyResources(this.materialFloatingActionButton15, "materialFloatingActionButton15");
             this.materialFloatingActionButton15.BackColor = System.Drawing.Color.White;
             this.materialFloatingActionButton15.Depth = 0;
             this.materialFloatingActionButton15.DrawShadows = false;
             this.materialFloatingActionButton15.Icon = global::pr2.Properties.Resources.icons8_graphique_1001;
-            resources.ApplyResources(this.materialFloatingActionButton15, "materialFloatingActionButton15");
             this.materialFloatingActionButton15.Mini = true;
             this.materialFloatingActionButton15.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFloatingActionButton15.Name = "materialFloatingActionButton15";
@@ -1453,8 +1432,8 @@
             // 
             // pictureBox17
             // 
-            this.pictureBox17.Image = global::pr2.Properties.Resources.images__4_;
             resources.ApplyResources(this.pictureBox17, "pictureBox17");
+            this.pictureBox17.Image = global::pr2.Properties.Resources.images__4_;
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.TabStop = false;
             // 
@@ -1630,11 +1609,8 @@
         private MaterialSkin.Controls.MaterialCard materialCard10;
         private MaterialSkin.Controls.MaterialFloatingActionButton materialFloatingActionButton10;
         private PictureBox pictureBox10;
-        private Label label3;
-        private Label label10;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private Label label11;
-        private Label label16;
         private Label label52;
         private Label label53;
         private Label label54;

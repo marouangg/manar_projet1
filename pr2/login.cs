@@ -74,7 +74,9 @@ namespace pr2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string sc = "datasource=localhost;username=root;password=;database=db_manar_demo";
+            //string sc = "datasource=localhost;username=root;password=;database=db_manar_demo";
+            string sc = "datasource=localhost;username=root;password=123456;database=manar";
+
             string role = "";
             string user_name = "";
             MySqlConnection cn = new MySqlConnection(sc);

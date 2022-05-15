@@ -58,24 +58,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>81, 290</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 21</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>. الفروع</value>
-  </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>81, 268</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 21</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>. دورات</value>
-  </data>
   <data name="materialLabel2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto Medium, 20px, style=Bold</value>
   </data>
@@ -96,18 +78,6 @@
   </data>
   <data name="label11.Text" xml:space="preserve">
     <value>. المدرسة</value>
-  </data>
-  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 155</value>
-  </data>
-  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 84</value>
-  </data>
-  <data name="label16.Text" xml:space="preserve">
-    <value>يُفهم على أنه مساحة
-الذي يمر من خلاله الكل
-معلومات أو
-خدمات</value>
   </data>
   <data name="materialLabel1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto Medium, 20px, style=Bold</value>
@@ -280,14 +250,26 @@
 خدمات
 </value>
   </data>
-  <data name="pic_fr.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 124</value>
-  </data>
   <data name="pic_en.Location" type="System.Drawing.Point, System.Drawing">
     <value>88, 124</value>
   </data>
+  <data name="pic_fr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 124</value>
+  </data>
+  <data name="materialLabel17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="materialLabel16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
   <data name="pic_ar.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 124</value>
+  </data>
+  <data name="materialLabel14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="materialLabel15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
   </data>
   <data name="materialLabel11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 14px</value>
@@ -310,7 +292,19 @@
   <data name="materialLabel13.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto Medium, 20px, style=Bold</value>
   </data>
+  <data name="materialLabel18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto Medium, 20px, style=Bold</value>
+  </data>
+  <data name="materialLabel19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto Medium, 20px, style=Bold</value>
+  </data>
+  <data name="materialLabel20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto Medium, 20px, style=Bold</value>
+  </data>
+  <data name="materialLabel21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto Medium, 20px, style=Bold</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1240, 800</value>
+    <value>1274, 800</value>
   </data>
 </root>
